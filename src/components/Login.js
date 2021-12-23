@@ -78,11 +78,11 @@ export default class PhoneLogin extends Component {
 
   render() {
     return (
-      <div className='forms' style={{ display: 'flex',backgroundColor:'#b4eed8' , justifyContent: 'center',marginLeft: '600px',marginRight:'600px', height: '100vh', alignItems: 'center' }}>
+      <div style={{ display: 'flex',backgroundColor:'#b4eed8' , justifyContent: 'center', height: '100vh', alignItems: 'center' }}>
         <Container fluid="sm" className="mt-3">
           <Row className="justify-content-center">
             <Col xs={12} md={6} lg={5}>
-              <h2 className="mb-3" class="btn btn-dark" style={{ marginTop: '20px', fontSize: '20px', borderRadius: '0', fontWeight: '600' }}>Login with Phone Number</h2>
+              <h2 className="mb-3" className="btn btn-dark" style={{ fontSize: '20px', borderRadius: '0',justifyContent: 'center',alignItems: 'center', fontWeight: '600' }}>Login with Phone Number</h2>
               <Form className="form" onSubmit={this.onSignInSubmit}>
                 <div id="recaptcha-container"></div>
                 <Form.Group>
@@ -94,7 +94,7 @@ export default class PhoneLogin extends Component {
                     required
                   />
                 </Form.Group>
-                <Button class="btn btn-primary" style={{marginTop:'10px'}} type="submit"> Verify </Button>
+                <Button class="btn btn-info" style={{marginTop:'10px'}} type="submit"> Verify </Button>
               </Form>
             </Col>
           </Row>
