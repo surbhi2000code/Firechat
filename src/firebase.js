@@ -3,7 +3,7 @@ import firebase from 'firebase'
 
 const firebaseApp = firebase.initializeApp({
   apiKey: "AIzaSyDi3iQgQkxNGuq57lBvrrdpxJdZ9A9xVVs",
-  authDomain: "https://firechat1.vercel.app/",
+  authDomain: "firechat-d8f73.firebaseapp.com",
   projectId: "firechat-d8f73",
   storageBucket: "firechat-d8f73.appspot.com",
   messagingSenderId: "832502126871",
