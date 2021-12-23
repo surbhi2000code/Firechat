@@ -68,7 +68,7 @@ export default class PhoneLogin extends Component {
       .then(function (result) {
         // User signed in successfully.
         // console.log("Result" + result.verificationID);
-        let user = result.user;
+        //let user = result.user;
       })
       .catch(function (error) {
         console.log(error);
@@ -82,7 +82,7 @@ export default class PhoneLogin extends Component {
         <Container fluid="sm" className="mt-3">
           <Row className="justify-content-center">
             <Col xs={12} md={6} lg={5}>
-              <h2 className="mb-3" className="btn btn-dark" style={{ fontSize: '20px', borderRadius: '0',justifyContent: 'center',alignItems: 'center', fontWeight: '600' }}>Login with Phone Number</h2>
+              <h2 className="mb-3 btn btn-dark" style={{ fontSize: '20px', borderRadius: '0',justifyContent: 'center',alignItems: 'center', fontWeight: '600' }}>Login with Phone Number</h2>
               <Form className="form" onSubmit={this.onSignInSubmit}>
                 <div id="recaptcha-container"></div>
                 <Form.Group>
